@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
-
+.lklk{
+  display: none;
+}
 *::-moz-selection {
   background: #31312d;
   color: #51dff8;
@@ -1266,6 +1268,14 @@ footer .wrapper .copyright h3 {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+   nav {
+    display: none;
+  }
+   .lklk{
+   display: block;
+   width: 90vw;
+   margin: auto;
+ }
 }
 
 @media screen and (max-width: 630px) {
@@ -1307,9 +1317,7 @@ footer .wrapper .copyright h3 {
   .calendar .wrapper .time {
     padding-bottom: 5px;
   }
-  nav {
-    display: none;
-  }
+ 
   .testimonial .wrapper .hudai img {
     margin: 20px;
     width: 250px;
@@ -1338,5 +1346,6 @@ footer .wrapper .copyright h3 {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
 }
 /*# sourceMappingURL=style.css.map */
