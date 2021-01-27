@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
@@ -35,8 +35,16 @@ a {
 
 header {
   height: 70vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.2))), url(school.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.2)), url(school.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.45)),
+      to(rgba(0, 0, 0, 0.2))
+    ),
+    url(school.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.2)),
+    url(school.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,23 +61,23 @@ header .wrapper nav ul {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 750px;
   margin: auto;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 header .wrapper nav ul li a {
   color: #eeeae3;
   text-transform: uppercase;
   padding-bottom: 3px;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
   font-size: 1rem;
 }
 
@@ -89,8 +97,8 @@ header .wrapper .welcome {
   display: grid;
   place-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header .wrapper .welcome p {
@@ -115,8 +123,8 @@ header .wrapper .welcome p i {
   height: 13vh;
   background: whitesmoke;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .short .shortcut {
@@ -124,7 +132,7 @@ header .wrapper .welcome p i {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 800px;
   height: 200px;
   margin: auto;
@@ -132,14 +140,22 @@ header .wrapper .welcome p i {
   top: -100px;
   background: #a5a5a5;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   grid-gap: 8px;
 }
 
 .short .shortcut .shortcut-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url(students.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(students.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(students.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(students.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,13 +170,21 @@ header .wrapper .welcome p i {
   color: #e3e7ad;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .short .shortcut .shortcut-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url(teachers.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(teachers.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(teachers.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(teachers.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,13 +199,21 @@ header .wrapper .welcome p i {
   color: #e3e7ad;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .short .shortcut .shortcut-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url(classroom.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(classroom.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(classroom.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(classroom.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,8 +228,8 @@ header .wrapper .welcome p i {
   color: #e3e7ad;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .testimonial {
@@ -211,18 +243,18 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-bottom: 40px;
 }
 
 .testimonial .wrapper .princes-com {
   -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -ms-flex: 2;
+  flex: 2;
 }
 
 .testimonial .wrapper .princes-com h1 {
@@ -259,8 +291,8 @@ header .wrapper .welcome p i {
 
 .testimonial .wrapper .hudai {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -271,11 +303,11 @@ header .wrapper .welcome p i {
   margin-left: 20px;
   width: 350px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .plane .wrapper {
@@ -296,7 +328,7 @@ header .wrapper .welcome p i {
 }
 
 .plane .wrapper .plane-desc p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   padding-bottom: 60px;
   line-height: 25px;
 }
@@ -305,7 +337,7 @@ header .wrapper .welcome p i {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .plane .wrapper .plane-logo .col-log {
@@ -313,7 +345,8 @@ header .wrapper .welcome p i {
   padding: 0 20px;
 }
 
-.plane .wrapper .plane-logo .col-log .fas, .plane .wrapper .plane-logo .col-log .fab {
+.plane .wrapper .plane-logo .col-log .fas,
+.plane .wrapper .plane-logo .col-log .fab {
   display: block;
   text-align: center;
   font-size: 5rem;
@@ -328,7 +361,7 @@ header .wrapper .welcome p i {
 }
 
 .plane .wrapper .plane-logo .col-log p {
-  font-size: .77rem;
+  font-size: 0.77rem;
   text-align: center;
 }
 
@@ -341,8 +374,19 @@ header .wrapper .welcome p i {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 43, 133, 0.8)), to(rgba(11, 43, 133, 0.9))), url(group-3.jpeg);
-  background-image: linear-gradient(rgba(11, 43, 133, 0.8), rgba(11, 43, 133, 0.9)), url(group-3.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(11, 43, 133, 0.8)),
+      to(rgba(11, 43, 133, 0.9))
+    ),
+    url(group-3.jpeg);
+  background-image: linear-gradient(
+      rgba(11, 43, 133, 0.8),
+      rgba(11, 43, 133, 0.9)
+    ),
+    url(group-3.jpeg);
 }
 
 .banner .wrapper .logo {
@@ -352,16 +396,16 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .banner .wrapper .logo .fas {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 3rem;
   margin: 20px 20px 20px 20px;
 }
@@ -391,12 +435,12 @@ header .wrapper .welcome p i {
   background-color: #648cfa;
   color: #eeeeec;
   border-radius: 5px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .banner .wrapper .logo .more a:hover {
-  font-size: .95rem;
+  font-size: 0.95rem;
 }
 
 .calendar {
@@ -417,7 +461,7 @@ header .wrapper .welcome p i {
 .calendar .wrapper .text .p {
   width: 50%;
   margin: 0 auto;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .calendar .wrapper .text .p p {
@@ -442,14 +486,14 @@ header .wrapper .welcome p i {
 
 .calendar .wrapper .time {
   -webkit-box-shadow: -3px 3px 16px -8px rgba(0, 0, 0, 0.54);
-          box-shadow: -3px 3px 16px -8px rgba(0, 0, 0, 0.54);
+  box-shadow: -3px 3px 16px -8px rgba(0, 0, 0, 0.54);
   width: 850px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -457,15 +501,15 @@ header .wrapper .welcome p i {
   height: 20rem;
   overflow-y: auto;
   -webkit-box-flex: 1.189;
-      -ms-flex: 1.189;
-          flex: 1.189;
+  -ms-flex: 1.189;
+  flex: 1.189;
 }
 
 .calendar .wrapper .time .year .yr21 {
   list-style: none;
   font-size: 1.5rem;
   padding: 20px 40px;
-  background: #EFEFEF;
+  background: #efefef;
 }
 
 .calendar .wrapper .time .year .yr21 a {
@@ -473,7 +517,7 @@ header .wrapper .welcome p i {
 }
 
 .calendar .wrapper .time .year .ul ul .jan {
-  background-color: #003A8F;
+  background-color: #003a8f;
 }
 
 .calendar .wrapper .time .year .ul ul .jan a {
@@ -485,7 +529,7 @@ header .wrapper .welcome p i {
 }
 
 .calendar .wrapper .time .year .ul ul li:hover {
-  background-color: #003A8F;
+  background-color: #003a8f;
 }
 
 .calendar .wrapper .time .year .ul ul li a {
@@ -500,20 +544,20 @@ header .wrapper .welcome p i {
 
 .calendar .wrapper .time .cal {
   -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -ms-flex: 2;
+  flex: 2;
 }
 
 .calendar .wrapper .time .note {
   -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   padding: 20px;
 }
 
 .calendar .wrapper .time .note hr {
   background-color: #f3f3f7;
-  height: .1px;
+  height: 0.1px;
 }
 
 .calendar .wrapper .time .note h3 {
@@ -532,8 +576,19 @@ header .wrapper .welcome p i {
 .number {
   margin-bottom: 3rem;
   margin-top: 3rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 3, 122, 0.8)), to(rgba(35, 3, 122, 0.8))), url(confarance.jpeg);
-  background-image: linear-gradient(rgba(35, 3, 122, 0.8), rgba(35, 3, 122, 0.8)), url(confarance.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(35, 3, 122, 0.8)),
+      to(rgba(35, 3, 122, 0.8))
+    ),
+    url(confarance.jpeg);
+  background-image: linear-gradient(
+      rgba(35, 3, 122, 0.8),
+      rgba(35, 3, 122, 0.8)
+    ),
+    url(confarance.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -546,10 +601,10 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .number .wrapper .header h3 {
@@ -562,7 +617,7 @@ header .wrapper .welcome p i {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .number .wrapper .count .num h3 {
@@ -598,19 +653,19 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .news .wrapper section .new-con .new {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #c7c6c9;
   width: 302px;
 }
@@ -631,7 +686,7 @@ header .wrapper .welcome p i {
 
 .news .wrapper section .new-con .new .top p {
   margin: 10px;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .news .wrapper section .new-con .new .img {
@@ -658,7 +713,7 @@ header .wrapper .welcome p i {
 }
 
 .news .wrapper section .new-con .new .bottom a {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #d89400;
   font-weight: 500;
 }
@@ -672,9 +727,9 @@ header .wrapper .welcome p i {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 1fr 1fr;
-      grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .photo .wrapper .col1 {
@@ -688,13 +743,13 @@ header .wrapper .welcome p i {
 .photo .wrapper img {
   width: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .photo .wrapper img:hover {
-  outline: solid 10px  tomato;
+  outline: solid 10px tomato;
 }
 
 .video {
@@ -709,24 +764,24 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
   gap: 10px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .video .wrapper .text {
   -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -ms-flex: 2;
+  flex: 2;
   margin-right: 2rem;
 }
 
@@ -745,54 +800,54 @@ header .wrapper .welcome p i {
 
 .video .wrapper .text a {
   font-size: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 4px;
   background: coral;
   color: white;
   display: inline-block;
-  -webkit-transition: .15s;
-  transition: .15s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
   margin: 20px auto;
 }
 
 .video .wrapper .text a:hover {
-  -webkit-animation: btn .35s linear;
-          animation: btn .35s linear;
+  -webkit-animation: btn 0.35s linear;
+  animation: btn 0.35s linear;
 }
 
 .video .wrapper .vid {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 @-webkit-keyframes btn {
   0% {
     -webkit-transform: scale(0.93);
-            transform: scale(0.93);
+    transform: scale(0.93);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
   }
 }
 
 @keyframes btn {
   0% {
     -webkit-transform: scale(0.93);
-            transform: scale(0.93);
+    transform: scale(0.93);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
   }
 }
 
@@ -823,23 +878,23 @@ header .wrapper .welcome p i {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 30px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .student .wrapper .polapain .pola {
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   cursor: pointer;
   width: 180px;
   height: 200px;
-  border: .01px solid darkgray;
+  border: 0.01px solid darkgray;
   display: -ms-grid;
   display: grid;
   background-color: rgba(255, 254, 254, 0.753);
@@ -870,7 +925,7 @@ header .wrapper .welcome p i {
 }
 
 .student .wrapper .polapain .pola .desc {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .subscribe .wrapper {
@@ -882,9 +937,20 @@ header .wrapper .welcome p i {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(78, 50, 145, 0.8)), to(rgba(78, 50, 145, 0.8))), url(group-3.jpeg);
-  background-image: linear-gradient(rgba(78, 50, 145, 0.8), rgba(78, 50, 145, 0.8)), url(group-3.jpeg);
+  justify-content: space-around;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(78, 50, 145, 0.8)),
+      to(rgba(78, 50, 145, 0.8))
+    ),
+    url(group-3.jpeg);
+  background-image: linear-gradient(
+      rgba(78, 50, 145, 0.8),
+      rgba(78, 50, 145, 0.8)
+    ),
+    url(group-3.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -926,20 +992,28 @@ header .wrapper .welcome p i {
   border-radius: 5px;
   outline: none;
   border: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
   background-color: tomato;
   color: white;
   font-weight: 500;
 }
 
 .subscribe .wrapper form .subs:hover {
-  -webkit-animation: btn .30s linear;
-          animation: btn .30s linear;
+  -webkit-animation: btn 0.3s linear;
+  animation: btn 0.3s linear;
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 17, 95, 0.8)), to(rgba(3, 17, 95, 0.8))), url(group-2.jpeg);
-  background-image: linear-gradient(rgba(3, 17, 95, 0.8), rgba(3, 17, 95, 0.8)), url(group-2.jpeg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(3, 17, 95, 0.8)),
+      to(rgba(3, 17, 95, 0.8))
+    ),
+    url(group-2.jpeg);
+  background-image: linear-gradient(rgba(3, 17, 95, 0.8), rgba(3, 17, 95, 0.8)),
+    url(group-2.jpeg);
 }
 
 footer .wrapper .container {
@@ -949,12 +1023,12 @@ footer .wrapper .container {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-bottom: 15px;
 }
 
@@ -974,12 +1048,12 @@ footer .wrapper .container .lll {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   color: #e9e6e6;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 footer .wrapper .container .lll .fab {
@@ -1000,12 +1074,12 @@ footer .wrapper .container .lll ul li {
 }
 
 footer .wrapper .container .lll ul li a {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #e9e6e6;
 }
 
 footer .wrapper .copyright h3 {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #e9e6e6;
   text-align: center;
   padding: 10px;
@@ -1014,7 +1088,7 @@ footer .wrapper .copyright h3 {
 .newlll {
   position: absolute;
   -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
   top: 3511px;
   pointer-events: none;
 }
@@ -1027,7 +1101,7 @@ footer .wrapper .copyright h3 {
 @media screen and (max-width: 1500px) {
   .plane .wrapper .plane-logo {
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
 }
@@ -1056,21 +1130,21 @@ footer .wrapper .copyright h3 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-bottom: 3rem;
     height: 20vh;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .subscribe .wrapper form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .subscribe .wrapper .text {
     text-align: center;
@@ -1087,10 +1161,10 @@ footer .wrapper .copyright h3 {
   .short .shortcut {
     position: relative;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     height: 425px;
     text-align: center;
-    width: 96vw;
+    width: 100%;
     top: -10px;
     grid-gap: 0;
   }
@@ -1104,7 +1178,7 @@ footer .wrapper .copyright h3 {
     width: 60px;
   }
   header .wrapper nav ul li a {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   header .wrapper nav ul {
     width: 90vw;
@@ -1112,13 +1186,13 @@ footer .wrapper .copyright h3 {
   .testimonial .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .plane .wrapper .plane-logo {
     place-items: center;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .plane .wrapper .plane-desc {
     margin: inherit;
@@ -1130,14 +1204,14 @@ footer .wrapper .copyright h3 {
   .banner .wrapper .logo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .banner .wrapper .logo .text h3 {
     text-align: center;
@@ -1189,8 +1263,8 @@ footer .wrapper .copyright h3 {
   footer .wrapper .container .social {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
@@ -1204,8 +1278,8 @@ footer .wrapper .copyright h3 {
   }
   .calendar .wrapper .time .year {
     -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    -ms-flex: 2;
+    flex: 2;
   }
 }
 
@@ -1218,7 +1292,7 @@ footer .wrapper .copyright h3 {
     top: -175px;
     left: 95px;
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   .calendar .wrapper .text {
     margin-bottom: 6rem;
@@ -1227,11 +1301,42 @@ footer .wrapper .copyright h3 {
 
 @media screen and (max-width: 450px) {
   .calendar .wrapper .time .note p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 5px;
   }
   .calendar .wrapper .time {
     padding-bottom: 5px;
+  }
+  nav {
+    display: none;
+  }
+  .testimonial .wrapper .hudai img {
+    margin: 20px;
+    width: 250px;
+  }
+  .calendar {
+    margin-bottom: 22rem;
+  }
+  .testimonial .wrapper .princes-com {
+    margin-top: 8rem;
+  }
+  .banner .wrapper .logo .text p {
+    text-align: center;
+  }
+  .calendar .wrapper .time {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .subscribe .wrapper {
+    height: 45vh;
+  }
+  .subscribe .wrapper form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
